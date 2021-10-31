@@ -1,0 +1,4 @@
+Proyecto:Bot discord
+Frameworks:Node.js
+servidor:github
+dominio:enzo999
