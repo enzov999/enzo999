@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES']});
 client.manager = require("./manager")(client);
 
-client.login("OTAzMzE1MTIxOTc0MTYxNDI4.YXrLww.1PYW98Y7TkzHOBHxVIKNot0y9PU");     
+client.login("token");     
 
 client.on("ready", () => {
   console.log("estoy listo.");
